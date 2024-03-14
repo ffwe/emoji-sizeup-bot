@@ -1,0 +1,29 @@
+{
+  "name": "emoji-sizeup-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --dev",
+    "start": "pm2 start ecosystem.config.js --only emoji-sizeup-bot --env production",
+    "del": "pm2 del all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffwe/emoji-sizeup-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffwe/emoji-sizeup-bot/issues"
+  },
+  "homepage": "https://github.com/ffwe/emoji-sizeup-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
